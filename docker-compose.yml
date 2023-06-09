@@ -1,0 +1,10 @@
+version: "3"
+services:
+  devenv:
+     image: dendron-cli:latest
+     container_name: dendron-cli
+     hostname: dendron-cli
+     environment: 
+       DENDRON_WORKSPACE: /mnt/Dendron
+     volumes:
+       - /home/paul/Dendron/k8s:/mnt/Dendron
