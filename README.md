@@ -2,7 +2,7 @@
 
 The puprose of this project is to create a self-contained docker image with all the dependencies needed to run the [dendron-cli](https://wiki.dendron.so/notes/RjBkTbGuKCXJNuE4dyV6G/)  
 
-By default, it will publish notes located in /home/paul/Dendron/k8s. This path can be changed in [docker-compose.yml](./docker-compose.ym)
+By default, it will publish notes located in /home/paul/Dendron/k8s. This path can be changed in [docker-compose.yml](./docker-compose.yml)
 ```yaml
       volumes:
        - /home/paul/Dendron/k8s:/mnt/Dendron
